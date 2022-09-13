@@ -1,0 +1,13 @@
+name = "HLT_Analysis"
+uuid = "dd90612b-a3f8-4259-8cca-e3762163c0d3"
+authors = ["Peter Vincent <peter.vincent.14@ucl.ac.uk> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
