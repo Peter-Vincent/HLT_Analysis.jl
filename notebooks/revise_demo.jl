@@ -5,23 +5,28 @@ using Markdown
 using InteractiveUtils
 
 # ╔═╡ 01b97702-3449-11ed-2756-a905b4e759e6
+# ╠═╡ disabled = true
+#=╠═╡
 begin
 	import Pkg
-	Pkg.add(path="..")
+	Pkg.develop(path="..")
 	#Pkg.add("/mnt/c/Users/Murri/Documents/SWC/HLT/HLT_Analysis/")
 	Pkg.add("Revise")
 
 end
+  ╠═╡ =#
 
 # ╔═╡ ddda6f0a-1445-4aa0-abae-0dd90f0dd6e6
 begin
 	using Revise
-	import HLT_Analysis as ha
+	includet("../src/HLT_Analysis.jl")
+	using HLT_Analysis
+	#import HLT_Analysis as ha
 end
 
 # ╔═╡ ee37494c-8143-4663-8188-45c1f86e872b
 begin
-	ha.foo()
+	foo()
 end
 
 # ╔═╡ 27a0237c-ec64-4c99-978c-762be4e6e42a

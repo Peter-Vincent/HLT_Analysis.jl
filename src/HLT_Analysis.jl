@@ -20,7 +20,7 @@ function parse_exp_pt(exp_folder::String)
 end
 	
 function foo()
-    return -1
+    return -2
 end
 
 function parse_folder(exp_folder::String,num_trials::Int)
