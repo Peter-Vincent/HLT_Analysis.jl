@@ -18,7 +18,10 @@ function parse_exp_pt(exp_folder::String)
 	end
 	return pt_data
 end
-		
+	
+function foo()
+    return -1
+end
 
 function parse_folder(exp_folder::String,num_trials::Int)
     dir_files = readdir(exp_folder)
@@ -58,7 +61,7 @@ function partition_data(df::DataFrame,segments::Int)
     end
     return df_store
 end
-    
+
 function row_means(density::Matrix,low_bound,high_bound)
     num_cols = size(density,2)
     bin_edges= LinRange(low_bound,high_bound,num_cols+1)
