@@ -104,4 +104,8 @@ function psychometric(df::DataFrame)
 	scatter(psych_list,dif_list,zcolor=score_list,xlabel="Sample freq exponent",ylabel="Difference",xlim=[10,12],lab="pair")
 end
 
+function test_revise()
+    println("working?")
+end
+
 end
