@@ -2,6 +2,8 @@
 
 This repo contains the analysis codes for the Hierarchical Learning Task, which was active at some point between 2021 and 2022.
 
+A full copy of the directory, including codes and data, can be found on `ceph/akrami/Peter/HLT`
+
 ## Experiments
 The experiments for this project were performed online using PsychoJS, hosted on Pavlovia.  An example experiment is [here](https://run.pavlovia.org/PeterVincent96/base_uniform_hlt)
 
